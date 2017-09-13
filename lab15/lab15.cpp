@@ -40,7 +40,7 @@ int main () {
     cin >> verbIng;
     cout << "Choose a person's first name: "; // First of two first names that you'll need
     cin >> firstName1;
-    cout << "Choose and adjective: "; 
+    cout << "Choose an adjective: "; 
     cin >> adj1;
     cout << "Choose a noun: ";   
     cin >> noun2;
