@@ -11,7 +11,6 @@ Date: 9-7-2017
 
 int main () {
     
-    
     string noun1; // This is a noun to name the awards show
     string exclaMation1; // This is an exclamation!
     string verbIng; // A verb ending in ing
@@ -31,6 +30,26 @@ int main () {
     string partOfBody; // Part of body
     string plurNoun2; // Another plural noun
     string noun4; // Another noun
+    
+    noun1 = "Doggie";
+    exclaMation1 = "Ohmygosh";
+    verbIng = "panting";
+    firstName1 = "Milo";
+    adj1 = "barking";
+    noun2 = "dogfest";
+    firstName2 = "April";
+    lastName1 = "Brown";
+    numFirst = 4.6;
+    numSecond = 1000;
+    plurNoun1 = "dogs";
+    noun3 = "dogbed";
+    adj2 = "catlike";
+    color1 = "calico";
+    verb1 = "laugh";
+    typeFood = "kibble";
+    partOfBody = "mind";
+    plurNoun2 = "Mutts";
+    noun4 = "Puppybowl";
     
     cout << "Choose a noun with a capital letter: "; // This is for the Title of the Mad Lib
     cin >> noun1;
