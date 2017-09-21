@@ -18,7 +18,7 @@ int main() {
     cout << "Enter starting wind speed: " << endl;
     cin >> wind_speed;
     
-    cout << "Enter temperature; " << endl;
+    cout << "Enter temperature: " << endl;
     cin >> temp_f;
     
     total_diff_of_two_wind_chills = old_style_wind_chill - new_style_wind_chill; //Difference between two windchills
