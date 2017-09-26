@@ -1,6 +1,6 @@
-#include <iostream>
+#include <iostream> //Basic input/output
 #include <cstdlib> //C standard library for random numbers
-#include <ctime>
+#include <ctime> //Allow for different random numbers instead of pseudo random
 using namespace std;
 
 int main () {
