@@ -1,6 +1,10 @@
-#include <iostream> //Basic input/output
-#include <cmath> //Allows for math calculations
+#include <iostream> 
+#include <cmath> 
 using namespace std;
+
+/*This will calculate windchill factors using the old formula and then the 
+  new formula. It will then calculate the difference between the two.
+*/
 
 int main() {
     double wind_speed                = 0.0; //Starting wind speed
