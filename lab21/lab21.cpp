@@ -1,6 +1,5 @@
 #include <iostream> //Basic input/output
 #include <cmath> //Allows for math calculations
-#include <cstdlib> //Standard library
 using namespace std;
 
 int main() {
