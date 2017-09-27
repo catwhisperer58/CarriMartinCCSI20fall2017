@@ -15,7 +15,7 @@ int main() {
     
     wind_speed = 4;
     temp_f = 30;
-    old_style_wind_chill = 0.081 *((3.71 * sqrt(wind_speed)) + 5.81 - (0.25*wind_speed))*(temp_f - 91.4) + 91.4; //Old formula
+    old_style_wind_chill = 0.081 * ((3.71 * sqrt(wind_speed)) + 5.81 - (0.25 * wind_speed)) * (temp_f - 91.4) + 91.4; //Old formula
     new_style_wind_chill = 35.74 + 0.6215 * temp_f - 35.75 * pow(wind_speed,0.16) + 0.4275 * temp_f * pow(wind_speed,0.16); //New formula
     
     cout << "Enter starting wind speed: " << endl;
