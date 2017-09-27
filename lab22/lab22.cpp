@@ -39,5 +39,12 @@ Another random number between 1 and 100 62
 
 Process exited with code: 0
 
+Running /home/ubuntu/workspace/lab22/lab22.cpp
+A random number between 1 and 100 61
+Another random number between 1 and 100 46
+
+
+Process exited with code: 0
+
 
 */
