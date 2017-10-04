@@ -19,7 +19,7 @@ int main () {
 
     int user_num1; //First user input number
     int user_num2; //Second user input number
-    int random_num; //Declares 
+    int random_num; //Declares my variable in main 
    
     
 
@@ -32,11 +32,11 @@ int main () {
     cin>>user_num2; //User input
     cout<<user_num1<<", "<<user_num2<<endl; //Original user input numbers
     cout<<user_num2<<", "<<user_num1<<endl; //Numbers swapped
-    cout<<"Random number between the two user input numbers: "; //Random number between two user input number
+    cout<<"Random number between the two user input numbers: "; //Random number between two user input numbers
     
     random_num = RandomNumGenerator(user_num1, user_num2); //Assigns my random number 
     
-    cout<<RandomNumGenerator(user_num1, user_num2)<<endl; //Calls the function for random number
+    cout<<RandomNumGenerator(user_num1, user_num2)<<endl; //Calls the function to create the random number
     
     cout<<random_num<<" pounds is "<<PoundsToKilos(random_num)<<" kilos"<<endl; //Inserts that same random number into number of pounds
                                                                                 //and then calls the function to convert that number 
