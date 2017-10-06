@@ -2,6 +2,8 @@
 #include <cstdlib> //Standard library, useful, all around
 using namespace std;
 
+
+
 /*This class gives a book title, author of said book and year of copyright
 */
 
@@ -12,9 +14,9 @@ class Book { //Class name, Book
     void SetBookAuthor(string book_author_to_set); //Mutator
     void SetBookYear(int copyright_year_to_set); //Mutator
     
-    string GetBookTitle()  const; //Accessor
-    string GetBookAutor()  const; //Accessor
-    int GetBookYear()  const; //Accessor
+    string GetBookTitle() const; //Accessor
+    string GetBookAutor() const; //Accessor
+    int GetBookYear() const; //Accessor
     
     void Print(); //Printing 
     
