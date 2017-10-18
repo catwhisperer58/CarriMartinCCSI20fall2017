@@ -10,12 +10,9 @@ This program will compile the gross income, tax paid and taxes either to be refu
 by their marital status.
 */
 
-
-
-
 int main() {
     
-    const double personal_exemption = 4050.00;
+    const double personal_exemption = 4050.00; //These numbers don't change
     const double single_deduction = 6350.00;
     const double married_deduction = 12700.00;
     
