@@ -8,25 +8,24 @@ using namespace std;
  
 int main() {  //Main function
         
-        char letters = 'a'; // Variable in main
+        char letters = '?'; // Variable in main
         cout << "Please enter a character, or enter -1 to quit: "; //Intended output
         cin  >> letters; //user input
          
-
-
-       while (letters >= 'A') {  // check -- is it a letter??
+         
+    
+        letters = 'A'; // check -- is it a letter??
        
-         if (letters >= 'A') || (letters <= 'Z') {
+         while (letters <= 'Z') {
                cout << "Yes, that is a uppercase letter." <<endl;
             }
         }
-        if (letters >= 'a') {
-          else if (letters >= 'a') {
-            if (letters <= 'z') {
+         letters = 'a';
+         while (letters <= 'z') {
                cout << "Yes, that is a lowercase letter"<<endl;
-            }
+        }
         }  
-        else if (letters > 'z') { 
+        if (letters > 'z') { 
             if (letters > 'Z') {
             cout << "Not a letter"<<endl;
         }
