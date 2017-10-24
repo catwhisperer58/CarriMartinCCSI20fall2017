@@ -5,7 +5,7 @@ using namespace std;
 on 10-21-2017
 This program reads in a letter and reports whether
  it is an uppercase letter, a lowercase letter, or neither.
- it should continue reading in values until the user enters a -1
+ it should continue reading in values until the user enters a 0
 */
  
 int main() {  //Main function
@@ -41,8 +41,9 @@ int main() {  //Main function
 
     /*Running /home/ubuntu/workspace/lab34/lab34.cpp
 Please enter a character: F
-Yes, that is a uppercase letter: f
-Yes, that is a lowercase letter: 3
+Yes, that is a uppercase letter: f 
+Yes, that is a lowercase letter: Z
+Yes, that is a uppercase letter: 3
 Not a letter
 */
       
