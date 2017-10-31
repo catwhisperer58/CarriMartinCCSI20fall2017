@@ -3,6 +3,7 @@ using namespace std;
 
 /*This program was corrected by Carri Martin
 on 10-21-2017
+Lab 3.4 Debugging - Checking Letter Case
 This program reads in a letter and reports whether
  it is an uppercase letter, a lowercase letter, or neither.
  it should continue reading in values until the user enters a 0
@@ -19,7 +20,7 @@ int main() {  //Main function
           {
           if ((ch >= 'A') && (ch <= 'Z')) { // check -- is it an uppercase letter??
           
-               cout << "Yes, that is a uppercase letter: ";
+               cout << "Yes, that is an uppercase letter: ";
                cin>> ch;
           }
     
@@ -39,11 +40,10 @@ int main() {  //Main function
           return 0; //Return of 0
     }
 
-    /*Running /home/ubuntu/workspace/lab34/lab34.cpp
+/*Running /home/ubuntu/workspace/lab34/lab34.cpp
 Please enter a character: F
 Yes, that is a uppercase letter: f 
 Yes, that is a lowercase letter: Z
 Yes, that is a uppercase letter: 3
 Not a letter
 */
-      
