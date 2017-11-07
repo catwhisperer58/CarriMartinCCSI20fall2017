@@ -30,17 +30,17 @@ class ArrayTools {
 };
     
      int Find_min[] {
+}
          Find_min = myArray[0];
-        for (i = 0; i < SIZE; ++i) {
+        for (i = 0; i < SIZE; i++) {
            if (myArray[i] < Find_min) {
                  Find_min = myArray[i];
-    
-}
+
 }
 }
      int Find_max[] {
          Find_max = myArray[0];
-         for (i=0; i<SIZE; ++i) {
+         for (i=0; i<SIZE; i++) {
              if (myArray > Find_max) {
                  Find_max = myArray[i];
 }                 
