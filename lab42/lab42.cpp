@@ -11,7 +11,7 @@ using namespace std;
 
 main() {
     
-    const int NUM_ELEMENTS = 10; //Number of elements
+    const int NUM_ELEMENTS = 10; //Default constructor
     string item_name[NUM_ELEMENTS]; //Name of items for sale
     int inventory_count[NUM_ELEMENTS]; //Inventory for each item
     int total_inventory; //Shows inventory after item is sold
@@ -109,43 +109,43 @@ Please choose an item number and quantity.
 10 disney_stitch_sweatshirt_white. There are 10 available, at a cost of $49.99 each.
 
 Item # and quantity: 
-1
 3
-Customer ordered 3 red_tennis_shoes at a cost of $35.99 each, which totals $107.97 which puts your shoppingcart total at $ 107.97
-Remaining available inventory of red_tennis_shoes is: 44
+3
+Customer ordered 3 black_tennis_shoes at a cost of $35.99 each, which totals $107.97 which puts your shoppingcart total at $ 107.97
+Remaining available inventory of black_tennis_shoes is: 47
 Your cart now has 3 items.
 Please choose another item number and quantity, or enter item #0 and quantity of 0 to quit.
+6
+2
+Customer ordered 2 disney_stitch_tank_white at a cost of $31.99 each, which totals $63.98 which puts your shoppingcart total at $ 171.95
+Remaining available inventory of disney_stitch_tank_white is: 10
+Your cart now has 5 items.
+Please choose another item number and quantity, or enter item #0 and quantity of 0 to quit.
+8
 3
-1
-Customer ordered 1 black_tennis_shoes at a cost of $35.99 each, which totals $35.99 which puts your shoppingcart total at $ 143.96
-Remaining available inventory of black_tennis_shoes is: 48
-Your cart now has 4 items.
-Please choose another item number and quantity, or enter item #0 and quantity of 0 to quit.
-4
-2
-Customer ordered 2 black_capris at a cost of $25.49 each, which totals $50.98 which puts your shoppingcart total at $ 194.94
-Remaining available inventory of black_capris is: 21
-Your cart now has 6 items.
-Please choose another item number and quantity, or enter item #0 and quantity of 0 to quit.
-9
-2
-Customer ordered 2 disney_stitch_sweatshirt_black at a cost of $49.99 each, which totals $99.98 which puts your shoppingcart total at $ 294.92
-Remaining available inventory of disney_stitch_sweatshirt_black is: 6
+Customer ordered 3 disney_stitch_tshirt_white at a cost of $34.99 each, which totals $104.97 which puts your shoppingcart total at $ 276.92
+Remaining available inventory of disney_stitch_tshirt_white is: 9
 Your cart now has 8 items.
 Please choose another item number and quantity, or enter item #0 and quantity of 0 to quit.
-1
+10
 2
-Customer ordered 2 red_tennis_shoes at a cost of $35.99 each, which totals $71.98 which puts your shoppingcart total at $ 366.9
-Remaining available inventory of red_tennis_shoes is: 43
+Customer ordered 2 disney_stitch_sweatshirt_white at a cost of $49.99 each, which totals $99.98 which puts your shoppingcart total at $ 376.9
+Remaining available inventory of disney_stitch_sweatshirt_white is: 8
 Your cart now has 10 items.
+Please choose another item number and quantity, or enter item #0 and quantity of 0 to quit.
+9
+6
+Customer ordered 6 disney_stitch_sweatshirt_black at a cost of $49.99 each, which totals $299.94 which puts your shoppingcart total at $ 676.84
+Remaining available inventory of disney_stitch_sweatshirt_black is: 4
+Your cart now has 16 items.
 Please choose another item number and quantity, or enter item #0 and quantity of 0 to quit.
 0
 0
-Your shopping cart has: 10 items in your cart.
-The total price of your cart is $366.9
+Your shopping cart has: 16 items in your cart.
+The total price of your cart is $676.84
 
 
-Process exited with code: 110
+Process exited with code: 164
 */
     
                    
