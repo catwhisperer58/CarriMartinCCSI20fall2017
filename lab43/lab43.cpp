@@ -2,8 +2,8 @@
 using namespace std;
 
 /*Written by Carri Martin
- *Date: 11-2-2017
- *Lab 4.2 - Parallel Arrays
+ *Date: 11--2017
+ *Lab 4.3 Arrays of Objects
  */
  
  const int NUM_ELEMENTS = 10; //Default constructor
