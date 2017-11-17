@@ -22,7 +22,7 @@ cin>>user_first_name>>user_last_name;
 cout<<endl;
 
    // If statements to print name and give warnings of problems with the user's name  
-      // if (user_first_name[i]) <= [i]) && (user_last_name[i]) < [i])) {
+       if ((user_first_name.size() <= [i]) && (user_last_name.size <= [i]))) {
          if (user_first_name != user_last_name) {
      --i;
 }
@@ -32,7 +32,7 @@ cout<<endl;
 }
      
 } 
-         else { ((strlen(user_first_name) > first_name) || (strlen(user_last_name) > last_name));
+         else { ((user_first_name.size()) > [i]) || (user_last_name.size()) > [i]));
     cout<<"Your first name or your last name is larger than maximum size allowed."<<endl;
  
 }   //Print the user's given name and then ask which three options for their username they would like
