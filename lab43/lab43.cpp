@@ -8,16 +8,13 @@ using namespace std;
  
  const int NUM_ELEMENTS = 10; //Default constructor
  
- class ShoppingCart {  //Class 
+ class ShoppingCart {  
      public:
-     string item_name[NUM_ELEMENTS];
-     int inventory_count[NUM_ELEMENTS];
-     float item_price[NUM_ELEMENTS];
-     float shopping_cart_total;
-     void print() const;
+     ShoppingCart(string item_name, float item_price, int inventory_count);
      
      private:
-     int item_num_to_order;
+     
+     int item_num_to_order[10];
      int quantity_ordered;
      int total_quantity_ordered;
      float total_item_cost;

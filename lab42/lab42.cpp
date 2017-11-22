@@ -67,7 +67,7 @@ main() {
         cout<<"Customer ordered "<<user_quantity_ordered<<" "<<item_name[i]<<" at a cost of $"<<item_price[i]<<" each, which totals $"<<total_item_cost; //Output that let's user know what they've ordered and different totals, such
         cout<<" which puts your shoppingcart total at $ "<<shopping_cart_total<<endl;                                                                    //as, single price, total price of single item, total cart price
         cout<<"Remaining available inventory of "<<item_name[i]<<" is: "<<inventory_count[i]<<endl;            //Reports remainng inventory
-        cout<<"Your cart now has "<<total_quantity_ordered<<" items."<<endl;                                                           //Total number of items ordered
+        cout<<"Your cart now has "<<total_quantity_ordered<<" items."<<endl;                                                         //Total number of items ordered
         cout<<"Please choose another item number and quantity, or enter item #0 and quantity of 0 to quit."<<endl;
         cin>>item_num; 
         cin>>user_quantity_ordered;
@@ -83,6 +83,7 @@ main() {
               
               
        cout<<"Your shopping cart has: "<<total_quantity_ordered<<" items in your cart."<<endl; //Upon ending, this reports total items in cart and total cost.
+       //cout<<"Items ordered: "<<item_name[i]<<endl;
        cout<<"The total price of your cart is $"<<shopping_cart_total<<endl;
        
        return shopping_cart_total;
