@@ -48,7 +48,7 @@ for (i = 0; i < num_classes; ++i) {
   grades>>student_grades[i];
   
 }
-      if( grades.good() ) {
+      if(grades.good() ) {
 }
 } 
 }
