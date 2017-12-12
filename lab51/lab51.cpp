@@ -4,6 +4,8 @@
 using namespace std;
 
 /*Needs a header...name, date, title
+Assignment being done by Carri Martin
+11-28-2017
 */
 
 int main() {

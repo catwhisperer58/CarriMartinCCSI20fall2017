@@ -51,7 +51,7 @@ int main() {
     cardS>>card_num[i];
     cardS>>cards_suit[i];
     
-        cout<<card_num[i]<<" "<<cards_suit[i]<<" ";
+    cout<<card_num[i]<<" "<<cards_suit[i]<<" ";
     
    }
 

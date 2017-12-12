@@ -49,9 +49,18 @@ for (i = 0; i < num_classes; ++i) {
   
 }
       if(grades.good() ) {
+      }          
+          for (i = 0; i < num_classes; ++i) {
+              for (j = 0; j < num_hours; ++j) {
+              cout<<first_name<<" "<<last_name<<endl;
+              cout<<num_classes<<endl;
+              cout<<num_hours[i]<<" "<<student_grades[j]<<endl;
+          
+              }          
+
 }
 } 
-}
+
    return 0;
   
 } 
