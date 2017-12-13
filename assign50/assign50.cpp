@@ -92,7 +92,7 @@ cout<<endl;
 cout<<video_game_name<<" "<<video_game_platform<<" "<<video_game_rating<<" "<<max_players<<endl;
  
 }
-
+games.close();
 
 }
 cout<<endl;
@@ -113,41 +113,101 @@ game_ratings[2].SetDefinition("For Mature, 17+"); //Calling the class GetDefinit
 game_ratings[2].Print(); //Printing info called from the class for 'M' rating
 cout<<endl;
 
-   video_game_rating[0] = 'E';
+   video_game_rating[0] = 'E'; //Initialize video_game_rating
    video_game_rating[1] = 'T';
    video_game_rating[2] = 'M';
    
-   if (games.is_open()) {
-
-games >> video_game_rating[0];
+        games.open("videogame.txt"); //Used to open my file
+      if (!games.is_open()) { //Instruction to print out in case of error and file doesn't run
+      cout << "Could not open file videogame.txt." << endl;
+      return 1; // 1 indicates error
    
 
-   for (i = 0; i < video_game_name[i]; ++i){
-       
+games >> video_game_rating; //Call all 'E' ratings
+   
+    
+       if (video_game_rating[i] == 'E') {
+           for (i = 0; i < 99; ++i){ //Loop to call all of games with an 'E' rating
        
          cout<<"          "<<video_game_rating[0]<<"          "<<endl;
-         cout<<video_game_name<<" "<<video_game_platform<<" "<<max_players;
+         cout<<video_game_name<<" "<<video_game_platform<<" "<<max_players; //Output games listed under 'E' rating
+}
+}
+}
+   else if (i = video_game_rating[i] == 'T') {
+    
+         cout<<"          "<<video_game_rating[i]<<"          "<<endl;          
+         cout<<video_game_name<<" "<<video_game_platform<<" "<<max_players; //Output games listed under 'T' rating
 
 }
-}
-/*   else if (i = video_game_rating[1]) {
-         i < video_game_rating[1];
-         cout<<"          "<<video_game_rating[1]<<"          "<<endl;          
-         cout<<video_game_name<<" "<<video_game_platform<<" "<<max_players;
-    ++i;
-}
-   else { i = video_game_rating[2];
-         i < video_game_rating[2];
-         cout<<"          "<<video_game_rating[2]<<"          "<<endl;
-         cout<<video_game_name<<" "<<video_game_platform<<" "<<max_players;
-    ++i;
+   else { i = video_game_rating[i] == 'M';
+    
+         cout<<"          "<<video_game_rating[i]<<"          "<<endl;
+         cout<<video_game_name<<" "<<video_game_platform<<" "<<max_players; //Output games listed under 'M' rating
+
+
 
 }
-*/
+
  return 0;
   
 } 
-   
+ 
+/*I almost got it to run like I wanted, but I'm stuck on retrieving all of the games from my text file.
+
+Running /home/ubuntu/workspace/assign50/assign50.cpp
+My text file list of video games, listed by game name, game system company, ESRB rating, and maximum number of players.
+
+ Windwaker Nintendo E 1
+ Go Cart Nintendo E 4
+ Sports Skateboarding Nintendo E 2
+ Life Nintendo E 2
+ Crossing Wild World Nintendo E 4
+ Till the End of Time Playstation E 2
+ Woodpecker Playstation E 1
+ Nintendo E 1
+ New Vegas XBOX M 1
+ Live & Reloaded XBOX M 2
+ Streets XBOX E 4
+ of Vesperia XBOX T 1
+ Calibur II Nintendo T 2
+ Ultimate Ninja 2 Playstation T 2
+ Alliance Playstation T 4
+ Adventures Nintendo T 1
+ Gerdy Playstation E 1
+ Pearl Nintendo E 8
+ Cloud Playstation T 1
+ Enter the Dragonfly Nintendo E 1
+
+
+The following is 3 of the video game ratings from the ESRB rating system for video games: 
+E - For Everyone
+T - For Teens, 13 and up
+M - For Mature, 17+
+
+          E          
+ Enter the Dragonfly Nintendo 1          E          
+ Enter the Dragonfly Nintendo 1          E          
+ Enter the Dragonfly Nintendo 1          E          
+ Enter the Dragonfly Nintendo 1          E          
+ Enter the Dragonfly Nintendo 1          E          
+ Enter the Dragonfly Nintendo 1          E          
+ Enter the Dragonfly Nintendo 1          E          
+ Enter the Dragonfly Nintendo 1          E          
+ Enter the Dragonfly Nintendo 1          E          
+ Enter the Dragonfly Nintendo 1          E          
+ Enter the Dragonfly Nintendo 1          E          
+ Enter the Dragonfly Nintendo 1          E          
+ Enter the Dragonfly Nintendo 1          E          
+ Enter the Dragonfly Nintendo 1          E          
+ Enter the Dragonfly Nintendo 1          E          
+ Enter the Dragonfly Nintendo 1          E          
+ Enter the Dragonfly Nintendo 1          E          
+ Enter the Dragonfly Nintendo 1          E          
+ Enter the Dragonfly Nintendo 1
+
+Process exited with code: 0
+*/
    
    
    
